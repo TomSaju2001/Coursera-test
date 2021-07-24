@@ -1,0 +1,103 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h1.OurMenu {
+	text-align: center;
+	color: #ff4532;
+	margin-bottom: 25px;
+	font-size: 55px;
+}
+
+.row {
+	width: 100%;
+	overflow: none;
+}
+
+section {
+	border : 4px solid black;
+	margin: 15px;	
+}
+
+
+.section-name {
+	text-align: center;
+	padding: 5px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	width: 30%;
+	position: relative;
+	float: right;
+	border-bottom: 4px solid black;
+	border-left: 4px solid black;
+	font-size: 20px;
+}
+
+.chicken, .beef, .sushi {
+	background-color: rgba(0,0,0,0.3);
+	
+}
+
+.name-chicken {
+	background-color: #FFB6C1;
+	color: black;
+}
+
+.name-beef {
+	background-color: #FF0000;
+	color: white;
+}
+
+.name-sushi 
+{
+	background-color: #FFFF00;
+	color: black;
+}
+
+
+.content {
+	margin-top: 55px;
+	margin-left: 15px;
+	font-size: 18px;
+}
+
+/********** Desktop View **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+  }
+
+  .col-lg-4 {
+    width: 33.33%;
+  }
+}
+
+
+/********** Tablet View **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/********** Mobile View **********/
+
+@media (min-width: 0px) and (max-width:  767px) {
+	.col-xm-12 {
+		width: 100%;
+	}
+}
