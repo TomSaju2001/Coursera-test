@@ -5,5 +5,5 @@
 
 ## My Course Completion certificate 
 
-![desktop](Course_Certificate/certificate.png)
+![certificate](Course_Certificate/certificate.png)
 
